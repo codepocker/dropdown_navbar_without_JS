@@ -1,0 +1,43 @@
+body {
+    background-image: url("images/lightning.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50pt;
+    font-weight: bolder;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul li {
+    float: left;
+    width: 260px;
+    height: 40px;
+    background-color: black;
+    opacity: 0.8;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 8px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover {
+    background-color: green;
+    cursor: pointer;
+}
+ul li ul li {
+    display: none;
+}
+ul li:hover ul li {
+    display: block;
+}
